@@ -1,0 +1,53 @@
+{
+    "oid": "",
+    "donneesEntreprise": {
+      "oid": "",
+      "libelle": "Twitter",
+      "email": "twitter@twitter.com",
+      "adresses": [
+        {
+          "oid": "",
+          "codePostal": 83200,
+          "numero": 55,
+          "rue": "rue de twitter",
+          "ville": "Toulon",
+          "pays": "France",
+          "departement": "Var"
+        }
+      ],
+      "secteur": "Téléphonie",
+      "telephone": "0652421212",
+      "fax": "0652421212",
+      "siteWeb": "https://twitter.com",
+      "typeEntreprise": "jesaispo",
+      "langues": [
+        "FR"
+      ],
+      "gestionnaireCompte": {
+        "oid": "C0A83801497B953280241376",
+        "profil": "COMMERCIAL",
+        "nom": "Dupont",
+        "prenom": "Jean",
+        "motDePasse": "string"
+      },
+      "ape": "string"
+    },
+    "coordsFinancieres": {
+      "oid": "",
+      "siret": "string",
+      "tva": 0,
+      "iban": "string",
+      "bicSwift": "string",
+      "tvaBool": true,
+      "prix": 0,
+      "conditionsPaiement": "string"
+    },
+    "listeModesFacturation": [
+      "FORFAIT"
+    ],
+    "etatSupprime": false,
+  	"etatDesactive": false,
+    "tags": [
+      "twitter,useless,test"
+    ]
+  }

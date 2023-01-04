@@ -1,0 +1,18 @@
+docker rm -f pmeflow-redis; docker run -d --name pmeflow-redis -p 6380:6379 -v Z:\dev\git\itii\pmeflow\_data:/data redislabs/redisearch:latest
+
+docker rm -f pmeflow-rabbitmq; docker run -d --name="pmeflow-rabbitmq" "-eRABBITMQ_DEFAULT_USER=admin" "-eRABBITMQ_DEFAULT_PASS=123AZErty." -p 16000:15672 -p 16001:5672 rabbitmq:3-management
+
+.\gradlew.bat '-Ddebug=5000' '-Dredis.uri=tcp://localhost:6380' :stripe-core:clean :stripe-core:quarkusDev
+
+.\gradlew.bat '-Ddebug=5001' '-Dredis.uri=tcp://localhost:6380' :grc-core:clean :grc-core:quarkusDev
+
+.\gradlew.bat '-Ddebug=5002' '-Dredis.uri=tcp://localhost:6380' :opportunite-core:clean :opportunite-core:quarkusDev
+
+.\gradlew.bat '-Ddebug=5003' '-Dredis.uri=tcp://localhost:6380' :activite-core:clean :activite-core:quarkusDev
+
+
+http://localhost:15001/q/swagger-ui/
+
+http://localhost:15002/q/swagger-ui/
+
+http://localhost:15003/q/swagger-ui/

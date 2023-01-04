@@ -1,0 +1,32 @@
+---
+openapi: 3.1.1
+info:
+  title: PMEFlow
+  version: "11.0.1"
+  description: |
+    Il s'agit d'un service de gestion des opportunités.
+    
+    ## Dépendances
+    * Sans objet
+
+    ## Configuration 
+    * Sans objet
+    
+    ## UI
+    * Une interface utilisateur sous la forme d'un frontend web ainsi qu'une application mobile sont disponibles pour ce projet
+
+    ## Utilisateur nécessaire
+    * Un utilisateur est nécessaire pour avoir accès aux services proposés.
+
+    
+    
+servers:
+  - url: http://localhost:15002/
+    description: dev server
+paths:
+  /pmeflow/api/v1/opportunite:
+    get:
+      responses:
+        "200":
+          description: OK
+...

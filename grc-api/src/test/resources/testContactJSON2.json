@@ -1,0 +1,100 @@
+{
+  "oid": "",
+  "donneesPerso": {
+    "oid": "",
+    "nom": "Chieze",
+    "prenom": "Corentin",
+    "email": "coco@gmail.com",
+    "adresses": [
+      {
+        "oid": "",
+        "codePostal": 83200,
+        "numero": 11,
+        "rue": "rue des clovis",
+        "ville": "Toulon",
+        "pays": "Pays-Bas",
+        "departement": "Var"
+      }
+    ],
+    "mobile": "0521454545",
+    "telephone": "0458745896",
+    "fax": "000225548",
+    "siteWeb": "http://corentin-chieze.fr",
+    "genre": "femme",
+    "dateNaissance": "12/02/2004",
+    "langues": [
+      "francais",
+      "anglais"
+    ]
+  },
+  "coordsFinancieres": {
+    "oid": "",
+    "siret": "732 854 320 00075",
+    "tva": 15,
+    "iban": "FR7630001007941234541234123",
+    "bicSwift": "AECFFR21",
+    "tvaBool": true,
+    "prix": 400,
+    "conditionsPaiement": "tous les 2 jours"
+  },
+  "entreprise": {
+    "oid": "jiohugyftvyghjbknld",
+    "donneesEntreprise": {
+      "oid": "",
+      "libelle": "Twitter",
+      "email": "contact@twitter.com",
+      "adresses": [
+        {
+          "oid": "",
+          "codePostal": 83201,
+          "numero": 30,
+          "rue": "rue de la clovis",
+          "ville": "Toulon",
+          "pays": "france",
+          "departement": "îles de france"
+        }
+      ],
+      "secteur": "informatique",
+      "telephone": "0494524152",
+      "fax": "0004558158",
+      "siteWeb": "http://www.twitter.fr",
+      "typeEntreprise": "multinationale",
+      "langues": [
+        "francais",
+        "anglais"
+      ],
+      "gestionnaireCompte": {
+        "oid": "",
+        "profil": "COMMERCIAL",
+        "nom": "Clovis",
+        "prenom": "Cremades",
+        "motDePasse": "12345"
+      },
+      "ape": "4712D"
+    },
+    "coordsFinancieres": {
+      "oid": "",
+      "siret": "732 229 820 00075",
+      "tva": 0,
+      "iban": "FR7630006000011234567890154",
+      "bicSwift": "BMCEFRPP",
+      "tvaBool": false,
+      "prix": 2000,
+      "conditionsPaiement": "tous les 3 jours"
+    },
+    "listeModesFacturation": [
+      "FORFAIT"
+    ],
+    "etatSupprime": false,
+    "etatDesactive": false,
+    "tags": [
+      "twitter"
+    ]
+  },
+  "contacts": [],
+  "tags": [
+    "twitter","matteo"
+  ],
+  "etatSupprime": true,
+  "etatDesactive": false
+}

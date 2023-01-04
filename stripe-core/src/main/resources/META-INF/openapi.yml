@@ -1,0 +1,53 @@
+---
+openapi: 3.1.1
+info:
+  title: Pmeflow-stripe
+  version: "11.0.1"
+  description: |
+    Il s'agit d'un µservice qui assure l'interface vers STRIPE.
+
+    ## Dépendances
+    ### CORE
+    * Nécessite un compte Stripe
+    * Nécessite un service keycloak.
+    * Peut s'enregistrer dans un annuaire de service lixbox-registry.
+
+    ## Configuration
+    ### CORE
+    Les variables d'environnement suivantes servent à configurer le service:
+    * **REGISTRY_URI**: URI du service d'annauire initialisée avec **http://main.host:18100/registry/api/1.0**
+    * **QUARKUS_OIDC_AUTH-SERVER_URL**: URI du server keycloak initialisée avec **http://main.host:10000/auth/realms/iam**
+    * **QUARKUS_OIDC_CLIENT-ID**: ID du client initialisée avec **lixbox-iam**
+    * **QUARKUS_OIDC_CREDENTIALS_SECRET**: SECRET du client initialisée avec **secret**
+    * **QUARKUS_HTTP_PORT**: Port exposée par le service initialisé avec **15004**
+    * **stripe.public.key**: Clé publique du compte Stripe
+    * **stripe.private.key**: Clé privée du compte Stripe
+
+    ## Utilisateur nécessaire
+
+    Sans objet
+
+    ## Profil accepté par défaut
+
+    Sans objet
+
+
+    ## Rôles disponibles pour le(s) service(s)
+
+    Les rôles suivants sont disponibles pour le service:
+    * **READ_CLIENT**: lire les données sur les clients
+    * **WRITE_CLIENT**: écrire les données sur les clients
+    * **CREATE_PAYMENT**: créer un paiment Stripe
+    * **PAY**: effectuer un paiment Stripe
+
+servers:
+  - url: http://localhost:15000/
+    description: dev server
+
+paths:
+  /stripe/api/1.0/customer/health:
+    get:
+      responses:
+        "200":
+          description: OK
+...

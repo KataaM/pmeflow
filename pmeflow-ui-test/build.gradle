@@ -1,0 +1,67 @@
+project(":pmeflow-ui-test"){
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        //project
+        api project(":commons-api")
+        
+        //lixbox
+        api(group: 'fr.lixbox.lixbox-service', name: 'lixbox-microservice-common', version: version_lixbox_service)
+        
+        //quarkus
+        implementation group: 'io.quarkus', name: 'quarkus-resteasy', version: quarkusVersion
+        implementation group: 'io.quarkus', name: 'quarkus-resteasy-jackson', version: quarkusVersion
+        implementation group: 'io.quarkus', name: 'quarkus-smallrye-openapi', version:quarkusVersion
+        implementation group: 'io.quarkus', name: 'quarkus-rest-client', version: quarkusVersion
+        
+        
+        // ================================ Selenium dependences ================================
+        testImplementation 'org.seleniumhq.selenium:selenium-java:4.6.0'
+	    testImplementation 'org.seleniumhq.selenium:selenium-grid:4.6.0'
+	    testImplementation 'io.github.bonigarcia:webdrivermanager:5.2.3'
+	    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    }
+    
+    jar{
+       duplicatesStrategy = DuplicatesStrategy.INCLUDE
+       from('dist') {
+          include '**/*.*'
+            into 'META-INF/resources'
+       }
+   
+
+       manifest {
+            attributes(
+                "Implementation-Title": project.name, 
+                "Implementation-Version": archiveVersion, 
+                "Implementation-Timestamp": new Date()
+            )
+        }
+    }
+    
+    eclipse{
+        project{
+            natures 'org.jboss.tools.ws.jaxrs.nature'
+        }
+        wtp{
+            facet {
+                facet name: 'jst.cdi', version: '2.0'
+                facet name: "jst.jaxrs", version: "2.1"
+            }   
+        }
+    }
+    
+    sonarqube {
+        properties {
+           property "sonar.projectKey", "${config.desc_project.artefact.group}.${rootProject.name}:${project.name}"
+           property "sonar.projectName", "${project.name}"
+           property "sonar.sources","src/main"
+           property "sonar.tests","src/test"
+        }
+    }
+
+    test {
+      useJUnitPlatform()
+    }
+}

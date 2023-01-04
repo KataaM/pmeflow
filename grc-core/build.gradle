@@ -1,0 +1,40 @@
+plugins {
+    id 'java-library'
+    id 'io.quarkus' version "${quarkus_gradle_plugins}"
+}
+project(":grc-core"){
+  dependencies {
+    //project
+    api project(":grc-api")
+    
+    //quarkus
+    implementation group: 'io.quarkus', name: 'quarkus-resteasy', version: quarkusVersion
+    implementation group: 'io.quarkus', name: 'quarkus-resteasy-jackson', version: quarkusVersion
+    implementation group: 'io.quarkus', name: 'quarkus-smallrye-openapi', version: quarkusVersion
+    
+    //divers
+    implementation group: 'io.quarkiverse.rabbitmqclient', name: 'quarkus-rabbitmq-client', version: '0.5.1.Final'
+    implementation group: 'com.sleepycat', name: 'je', version: '18.3.12'
+        
+    //Jakarta ee spec + impl
+    implementation group: 'org.hibernate.validator', name: 'hibernate-validator-cdi', version: '6.1.4.Final'
+    
+    
+    //TEST
+    testImplementation group:'io.quarkus', name: 'quarkus-junit5', version:quarkusVersion
+    testImplementation group: 'io.quarkus', name: 'quarkus-rest-client', version: quarkusVersion
+  }
+
+  sonarqube {
+        properties {
+           property "sonar.projectKey", "${config.desc_project.artefact.group}.${rootProject.name}:${project.name}"
+           property "sonar.projectName", "${project.name}"
+           property "sonar.sources","src/main"
+           property "sonar.tests","src/test"
+        }
+    }
+
+  test {
+    useJUnitPlatform()
+  }
+}

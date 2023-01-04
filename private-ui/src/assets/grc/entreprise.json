@@ -1,0 +1,78 @@
+{
+  "oid": "",
+  "donneesEntreprise": {
+    "oid": "",
+    "libelle": "",
+    "email": "",
+    "adresses": [
+      {
+        "oid": "",
+        "codePostal": 0,
+        "numero": 0,
+        "rue": "",
+        "ville": "",
+        "pays": "",
+        "departement": ""
+      }
+    ],
+    "secteur": "",
+    "telephone": "",
+    "fax": "",
+    "siteWeb": "",
+    "typeEntreprise": "",
+    "langues": [
+      "français","anglais"
+    ],
+    "gestionnaireCompte": {
+      "oid": "",
+      "profil": "COMMERCIAL",
+      "nom": "",
+      "prenom": "",
+      "motDePasse": ""
+    },
+    "ape": ""
+  },
+  "coordsFinancieres": {
+    "oid": "",
+    "siret": "",
+    "tva": 0,
+    "iban": "",
+    "bicSwift": "",
+    "tvaBool": true,
+    "prix": 0,
+    "conditionsPaiement": ""
+  },
+  "listeModesFacturation": [
+    "FORFAIT"
+  ],
+  "etat": true,
+  "tags": [
+    ""
+  ],
+  "listeActivites": [
+    {
+      "oid": "",
+      "collaborateur": {
+        "oid": "",
+        "profil": "COMMERCIAL",
+        "nom": "",
+        "prenom": "",
+        "motDePasse": ""
+      },
+      "date": "",
+      "commentaire": "",
+      "oidCible": "",
+      "refAction": {
+        "oid": "",
+        "typeDomaine": "OPPORTUNITE",
+        "evenement": "",
+        "icone": ""
+      }
+    }
+  ],
+  "listeOpportunites": [
+    {
+      "oid": ""
+    }
+  ]
+}

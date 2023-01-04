@@ -1,0 +1,100 @@
+{
+  "oid": "",
+  "donneesPerso": {
+    "oid": "",
+    "nom": "Dupont",
+    "prenom": "Jean",
+    "email": "jean.dupont@gmail.com",
+    "adresses": [
+      {
+        "oid": "",
+        "codePostal": 12400,
+        "numero": 10,
+        "rue": "rue des lilas",
+        "ville": "arles",
+        "pays": "france",
+        "departement": "bouches-du-rhone"
+      }
+    ],
+    "mobile": "0624853678",
+    "telephone": "0494752815",
+    "fax": "000225547",
+    "siteWeb": "http://dupont-jean.fr",
+    "genre": "homme",
+    "dateNaissance": "14/01/1974",
+    "langues": [
+      "francais",
+      "anglais"
+    ]
+  },
+  "coordsFinancieres": {
+    "oid": "",
+    "siret": "732 829 320 00074",
+    "tva": 15,
+    "iban": "FR7630001007941234567890185",
+    "bicSwift": "AECFFR21",
+    "tvaBool": true,
+    "prix": 200,
+    "conditionsPaiement": "tous les 15 jours"
+  },
+  "entreprise": {
+    "oid": "opioyuifygkuhil",
+    "donneesEntreprise": {
+      "oid": "",
+      "libelle": "Facebook",
+      "email": "contact@facebook.com",
+      "adresses": [
+        {
+          "oid": "",
+          "codePostal": 25400,
+          "numero": 30,
+          "rue": "rue de la matriarche",
+          "ville": "saint-vulpin",
+          "pays": "france",
+          "departement": "loire"
+        }
+      ],
+      "secteur": "informatique",
+      "telephone": "0494257811",
+      "fax": "0004558117",
+      "siteWeb": "http://www.facebook.fr",
+      "typeEntreprise": "multinationale",
+      "langues": [
+        "francais",
+        "anglais"
+      ],
+      "gestionnaireCompte": {
+        "oid": "",
+        "profil": "COMMERCIAL",
+        "nom": "John",
+        "prenom": "Doe",
+        "motDePasse": "1234"
+      },
+      "ape": "4711D "
+    },
+    "coordsFinancieres": {
+      "oid": "",
+      "siret": "732 229 820 00074",
+      "tva": 0,
+      "iban": "FR7630006000011234567890189",
+      "bicSwift": "BMCEFRPP",
+      "tvaBool": false,
+      "prix": 2000,
+      "conditionsPaiement": "tous les 15 jours"
+    },
+    "listeModesFacturation": [
+      "FORFAIT"
+    ],
+    "etatSupprime": false,
+    "etatDesactive": false,
+    "tags": [
+      "facebook"
+    ]
+  },
+  "contacts": [],
+  "tags": [
+    "facebook"
+  ],
+  "etatSupprime": false,
+  "etatDesactive": false
+}

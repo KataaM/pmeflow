@@ -1,0 +1,56 @@
+println "======================================== critical updates =========================="
+subprojects {
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            if (details.requested.group.contains('org.apache.httpcomponents') && 
+                    details.requested.name.contains('httpclient') &&
+                    details.requested.version.contains('4.5.12')) {
+                    println "correction cve-org.apache.httpcomponents-httpclient-4.5.12"
+                    details.useVersion '4.5.13'
+                    details.because 'critical cve in 4.5.12'
+            }
+            if (details.requested.group.contains('org.keycloak')) {
+                    println "correction cve-keycloak"
+                    details.useVersion version_keycloak
+                    details.because 'critical cve in keycloak'
+            }
+            if (details.requested.group.contains('org.apache.james') && 
+                    details.requested.version.contains('0.8.3')) {
+                    println "correction cve org.apache.james"
+                    details.useVersion '0.8.7'
+                    details.because 'critical cve in 0.8.3'
+            }
+            if (details.requested.group.contains('com.google.code.gson') && 
+                    details.requested.name.contains('gson')) {
+                    println "correction cve gson"
+                    details.useVersion '2.9.1'
+                    details.because 'critical cve in 2.8.7'
+            }
+            if (details.requested.group.contains('redis.clients') && 
+                    details.requested.name.contains('jedis')) {
+                    println "correction cve jedis"
+                    details.useVersion '4.3.0-m1'
+                    details.because 'critical cve in 4.0.0'
+            }
+            if (details.requested.group.contains('org.apache.tika') && 
+                    details.requested.version.contains('1.27')) {
+                    println "correction cve org.apache.tika"
+                    details.useVersion '1.28.4'
+                    details.because 'critical cve in 1.27'
+            }
+            if (details.requested.group.contains('org.apache.xmlgraphics') && 
+                    details.requested.version.contains('1.13')) {
+                    println "correction cve batik"
+                    details.useVersion '1.14'
+                    details.because 'critical cve in 1.13'
+            }
+            if (details.requested.group.contains('org.yaml') && 
+                    details.requested.name.contains('snakeyaml') && 
+                    details.requested.version.contains('1.30')) {
+                    println "correction cve snakeyaml"
+                    details.useVersion '1.31'
+                    details.because 'critical cve in 1.30'
+            }
+        }
+    }
+}

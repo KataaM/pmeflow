@@ -1,0 +1,37 @@
+---
+openapi: 3.1.1
+info:
+  title: PMEFlow
+  version: "11.0.1"
+  description: |
+    Il s'agit d'un service de gestion de la relation client.
+    
+    ## Dépendances
+    * Sans objet
+
+    ## Configuration 
+    * Sans objet
+    
+    ## UI
+    * Une interface utilisateur sous la forme d'un frontend web ainsi qu'une application mobile sont disponibles pour ce projet
+
+    ## Utilisateur nécessaire
+    * Un utilisateur est nécessaire pour avoir accès aux services proposés.
+
+    
+    
+servers:
+  - url: http://localhost:15001/
+    description: dev server
+paths:
+  /pmeflow/api/v1/contact/:
+    get:
+      responses:
+        "200":
+          description: OK
+  /pmeflow/api/v1/entreprise:
+    get:
+      responses:
+        "200":
+          description: OK
+...

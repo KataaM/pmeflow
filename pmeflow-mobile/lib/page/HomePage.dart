@@ -1,0 +1,26 @@
+import 'package:flutter/material.dart';
+
+class HomeFragment extends StatefulWidget {
+  @override
+  _HomeFragmentState createState() => _HomeFragmentState();
+}
+
+class _HomeFragmentState extends State {
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return new Center(
+      child: new Text("Fragment - Home"),
+    );
+  }
+}

@@ -1,0 +1,32 @@
+---
+openapi: 3.1.1
+info:
+  title: PMEFlow
+  version: "11.0.1"
+  description: |
+    Il s'agit d'un service de logging d'activites de l'application pmeflow
+    
+    ## Dépendances
+    * GRC-API
+
+    ## Configuration 
+    * Sans objet
+    
+    ## UI
+    * Sans objet
+
+    ## Utilisateur nécessaire
+    * Aucun utilisateur nécessaire
+
+    
+    
+servers:
+  - url: http://localhost:15003/
+    description: dev server
+paths:
+  /pmeflow/api/v1/activite:
+    get:
+      responses:
+        "200":
+          description: OK
+...

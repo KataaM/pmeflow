@@ -1,0 +1,64 @@
+---
+openapi: 3.1.1
+info:
+  title: Pmeflow-iam
+  version: "11.0.1"
+  description: |
+    Il s'agit d'un µservice IAM (Identity Access Management) qui repose sur KEYCLOAK.
+    
+    ## Dépendances
+    ### CORE
+    * Nécessite un service keycloak.
+    * Nécessite un service Stripe Connect.
+    * Peut s'enregistrer dans un annuaire de service lixbox-registry.  
+
+    ## Configuration 
+    ### CORE
+    Les variables d'environnement suivantes servent à configurer le service:
+    * **REGISTRY_URI**: URI du service d'annauire initialisée avec **http://main.host:18100/registry/api/1.0**
+    * **QUARKUS_OIDC_AUTH-SERVER_URL**: URI du server keycloak initialisée avec **http://main.host:10000/auth/realms/iam**
+    * **QUARKUS_OIDC_CLIENT-ID**: ID du client initialisée avec **lixbox-iam**
+    * **QUARKUS_OIDC_CREDENTIALS_SECRET**: SECRET du client initialisée avec **secret**
+    * **QUARKUS_HTTP_PORT**: Port exposée par le service initialisé avec **18102**
+
+    * **keycloak-url**: URI du serveur keycloak intialisée avec **http://localhost:10000/auth**
+    * **keycloak-realm**: nom du realm intialisée avec **iam**
+    * **keycloak-username**: username du compte créé pour se connecter au serveur keycloak initialisée avec **iam-user**
+    * **keycloak-pwd**: password du compte créé pour se connecter au serveur keycloak initialisée avec **1@mPassWd!**
+    * **keycloak-client-id**: client d'accès à l'API keycloak intialisée avec **admin-cli**
+    * **stripe.service.uri**: uri du service Stripe
+
+    ## Utilisateur nécessaire
+    ### CORE
+    Il faut créer un compte dans keycloak.    
+    Après redémarrage du serveur Keycloak, il faudra attribuer les droits sur le client "realm-management"
+    * **manage-users**
+    * **view-users**
+    * **query-clients**
+    * **query-groups**
+    * **query-users**
+
+    ## Profil accepté par défaut
+
+    Sans objet
+
+
+    ## Rôles disponibles pour le(s) service(s)
+
+    Les rôles suivants sont disponibles pour le service:
+    * **READ_PROFIL**: lire les données sur les profils
+    * **WRITE_PROFIL**: écrire les données sur les profils
+    * **READ_CLIENT**: lire les données sur les clients
+    * **WRITE_CLIENT**: écrire les données sur les clients
+    
+servers:
+  - url: http://localhost:15001/
+    description: dev server
+    
+paths:
+  /iam/api/1.0/client/health:
+    get:
+      responses:
+        "200":
+          description: OK
+...

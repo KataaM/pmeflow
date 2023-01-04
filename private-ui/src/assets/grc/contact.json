@@ -1,0 +1,145 @@
+{
+    "oid": "",
+    "donneesPerso": {
+        "oid": "",
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "adresses": [
+            {
+                "oid": "",
+                "codePostal": 0,
+                "numero": 0,
+                "rue": "",
+                "ville": "",
+                "pays": "",
+                "departement": ""
+            }
+        ],
+        "mobile": "",
+        "telephone": "",
+        "fax": "",
+        "siteWeb": "",
+        "genre": "",
+        "dateNaissance": "",
+        "langues": [
+            ""
+        ]
+    },
+    "coordsFinancieres": {
+        "oid": "",
+        "siret": "",
+        "tva": 0,
+        "iban": "",
+        "bicSwift": "",
+        "tvaBool": true,
+        "prix": 0,
+        "conditionsPaiement": ""
+    },
+    "entreprise": {
+        "oid": "string",
+        "donneesEntreprise": {
+            "oid": "string",
+            "libelle": "string",
+            "email": "string",
+            "adresses": [
+                {
+                    "oid": "string",
+                    "codePostal": 0,
+                    "numero": 0,
+                    "rue": "string",
+                    "ville": "string",
+                    "pays": "string",
+                    "departement": "string"
+                }
+            ],
+            "secteur": "string",
+            "telephone": "string",
+            "fax": "string",
+            "siteWeb": "string",
+            "typeEntreprise": "string",
+            "langues": [
+                "string"
+            ],
+            "gestionnaireCompte": {
+                "oid": "string",
+                "profil": "COMMERCIAL",
+                "nom": "string",
+                "prenom": "string",
+                "motDePasse": "string"
+            },
+            "ape": "string"
+        },
+        "coordsFinancieres": {
+            "oid": "string",
+            "siret": "string",
+            "tva": 0,
+            "iban": "string",
+            "bicSwift": "string",
+            "tvaBool": true,
+            "prix": 0,
+            "conditionsPaiement": "string"
+        },
+        "listeModesFacturation": [
+            "FORFAIT"
+        ],
+        "etat": true,
+        "tags": [
+            "string"
+        ],
+        "listeActivites": [
+            {
+                "oid": "string",
+                "collaborateur": {
+                    "oid": "string",
+                    "profil": "COMMERCIAL",
+                    "nom": "string",
+                    "prenom": "string",
+                    "motDePasse": "string"
+                },
+                "date": "string",
+                "commentaire": "string",
+                "oidCible": "string",
+                "refAction": {
+                    "oid": "string",
+                    "typeDomaine": "OPPORTUNITE",
+                    "evenement": "string",
+                    "icone": "string"
+                }
+            }
+        ],
+        "listeOpportunites": [
+            {
+                "oid": "string"
+            }
+        ]
+    },
+    "contacts": [
+        "string"
+    ],
+    "tags": [
+        "string"
+    ],
+    "etat": true,
+    "listeActivites": [
+        {
+            "oid": "string",
+            "collaborateur": {
+                "oid": "string",
+                "profil": "COMMERCIAL",
+                "nom": "string",
+                "prenom": "string",
+                "motDePasse": "string"
+            },
+            "date": "string",
+            "commentaire": "string",
+            "oidCible": "string",
+            "refAction": {
+                "oid": "string",
+                "typeDomaine": "OPPORTUNITE",
+                "evenement": "string",
+                "icone": "string"
+            }
+        }
+    ]
+}

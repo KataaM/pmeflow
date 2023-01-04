@@ -1,0 +1,58 @@
+---
+openapi: 3.1.1
+info:
+  title: Pmeflow-referentiel
+  version: "11.0.1"
+  description: |
+    Il s'agit des microservices de référentiels.
+    
+    ## Liste des services
+    * **abonnement**: référentiel des abonnements à la plateforme Pmeflow
+    * **parametre**: référentiel des paramètres de la plateforme Pmeflow 
+    * **prestation**: référentiel des prestations de la plateforme Pmeflow
+    
+    ## Dépendances
+    ### CORE
+    * Nécessite un service redis.
+    * Nécessite un service Stripe.
+    * Peut s'enregistrer dans un annuaire de service lixbox-registry.  
+
+
+    ## Configuration 
+    ### CORE
+    Les variables d'environnement suivantes servent à configurer le service:
+    * **REGISTRY_URI**: URI du service d'annauire initialisée avec **http://main.host:18100/registry/api/1.0**
+    * **QUARKUS_OIDC_AUTH-SERVER_URL**: URI du server keycloak initialisée avec **http://main.host:10000/auth/realms/iam**
+    * **QUARKUS_OIDC_CLIENT-ID**: ID du client initialisée avec **lixbox-iam**
+    * **QUARKUS_HTTP_PORT**: Port exposée par le service initialisé avec **15001**
+    * **stripe.service.uri**: uri du service Stripe
+    
+    ## Utilisateur nécessaire
+    ### CORE
+    
+    Sans objet
+
+    ## Profil accepté par défaut
+
+    Sans objet
+
+
+    ## Rôles disponibles pour le(s) service(s)
+
+    Les rôles suivants sont disponibles pour le service:
+    * **READ_REF_ABONNEMENT**: lire les entrées du référentiel abonnement
+    * **WRITE_REF_ABONNEMENT**: ecrire les entrées du référentiel abonnement
+    * **READ_REF_PRESTATION**: lire les entrées du référentiel prestation
+    * **WRITE_REF_PRESTATION**: ecrire les entrées du référentiel prestation
+    
+servers:
+  - url: http://localhost:15001/
+    description: dev server
+
+paths:
+  /pmeflow/api/1.0/abonnement/health:
+    get:
+      responses:
+        "200":
+          description: OK
+...

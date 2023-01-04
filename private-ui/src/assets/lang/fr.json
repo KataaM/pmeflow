@@ -1,0 +1,638 @@
+{
+	"$vuetify": {
+		"dataFooter": {
+			"firstPage": "Première page",
+			"itemsPerPageAll": "Tous",
+			"itemsPerPageText": "Élements par page:",
+			"lastPage": "Dernière page",
+			"nextPage": "Page suivante",
+			"pageText": "{0}-{1} de {2}",
+			"prevPage": "Page précédente"
+		},
+		"dataIterator": {
+			"loadingText": "Chargement de l'élément...",
+			"noResultsText": "Aucun enregistrement correspondant trouvé"
+		},
+		"dataTable": {
+			"ariaLabel": {
+				"activateAscending": "Activer pour trier par ordre croissant.",
+				"activateDescending": "Activer pour trier par ordre décroissant.",
+				"activateNone": "Activer pour supprimer le tri.",
+				"sortAscending": "Tri croissant.",
+				"sortDescending": "Tri décroissant.",
+				"sortNone": "Non trié."
+			},
+			"itemsPerPageText": "Lignes par page:",
+			"sortBy": "Trier par"
+		},
+		"noDataText": "Aucune donnée disponible"
+	},
+	"pmeflow": {
+		"application": {
+			"menu": {
+				"abonnements": "Abonnements",
+				"clients": "Clients",
+				"coaching_rdv": "Coaching & Rendez-vous",
+				"configuration": {
+					"simple":"Configuration",
+					"personnaliser":"Personnaliser",
+					"preferences":"Préférences",
+					"banque":"Banque",
+					"commandes":"Commandes",
+					"factures":"Factures",
+					"interventions":"Interventions",
+					"lieux":"Lieux",
+					"mesOrganisations":"Organisations",
+					"opportunites":"Opportunités",
+					"organisations":"Organisations",
+					"planning":"Planning",
+					"projets":"Projets",
+					"rh":"G.R.H.",
+					"templates":"Templates",
+					"tickets":"Tickets"
+				},
+				"entreprises": "Entreprises",
+				"contacts": "Contacts",
+				"opportunites": "Opportunités",
+				"projets": "Projets",
+				"suivitemps": "Suivi du temps",
+
+				"dashboard": "Dashboard",
+				"dossiers": "Dossiers",
+				"mon_planning": "Mon planning",
+				"mon_profil": "Mon profil",
+				"prestations": "Prestations",
+				"ref_abonnement": "Référentiel abonnement",
+				"ref_formulaire": "Référentiel formulaire",
+				"ref_prestation": "Référentiel prestation",
+				"utilisateurs": "Utilisateurs"
+			},
+			"title": "Pmeflow • Legal"
+		},
+		"ui":{
+			"abonnement":{
+				"button":{
+					"resilier":"Résilier votre abonnement"
+				},
+				"label":{
+					"confirmation":{
+						"resiliation":"Demande de résiliation"
+					},
+					"motifResiliation":"Motif de la résiliation",
+					"dateDebut": "Date de début",
+					"finEngagement":"Fin d'engagement",
+					"prestationsIncluses": "Prestations incluses"
+				},
+				"msg":{
+					"confirmation":{
+						"resiliation":"Nous sommes navré d'apprendre que nos services ne répondent plus à vos attentes. Merci de confirmer votre souhait de mettre un terme à votre abonnement."
+					},
+					"dateDebut": "Date de début",
+					"finEngagement":"Fin d'engagement",
+					"prestationsIncluses": "Prestations incluses"
+				},
+				"statut":{
+					"actif":"Actif",
+              		"en_erreur":"En erreur",
+              		"resilie":"Résilié",
+              		"en_cours_de_resiliation":"En cours de résiliation",
+					"a_verifier":"A Vérifier"
+				},
+				"title":{
+					"multiple": "Abonnements",
+					"simple":"Abonnement"
+				},
+				"tab":{
+					"resume":"Résumé",
+					"transactions":"Transactions",
+					"facture":"Facture"
+				}				
+			},
+			"client":{
+				"button":{
+					"ajouter":"Ajouter un client"
+				},
+				"label":{
+					"priseContactPreferee":"Prise de contact préférée",
+					"password":"Mot de passe",
+					"verifyPassword":"Vérification du mot de passe"
+				},
+				"message":{
+					"passwordsDifferents":"Les mots de passe saisis ne sont pas identiques.",
+					"passwordChange":"Le mot de passe a été mis à jour.",
+					"profilChange":"Le profil a été mis à jour.",
+					"saisirTelephone":"Merci de remplir le numéro de téléphone"
+				},
+				"title":{
+					"multiple": "Clients",
+					"simple":"Client"
+				},
+				"tab":{
+					"profil":"Profil",
+					"communication":"Communication",
+					"securite":"Sécurité"
+				}
+			},
+			"configuration":{
+				"button":{
+					"ajouter":"Ajouter un client"
+				},
+				"label":{
+					"priseContactPreferee":"Prise de contact préférée",
+					"password":"Mot de passe",
+					"verifyPassword":"Vérification du mot de passe"
+				},
+				"message":{
+					"passwordsDifferents":"Les mots de passe saisis ne sont pas identiques.",
+					"passwordChange":"Le mot de passe a été mis à jour.",
+					"profilChange":"Le profil a été mis à jour.",
+					"saisirTelephone":"Merci de remplir le numéro de téléphone"
+				},
+				"title": "Configurations",
+				"tab":{
+					"profil":"Profil",
+					"communication":"Communication",
+					"securite":"Sécurité"
+				}
+			},
+			"dashboard":{
+				"title":"Bienvenue chez Pmeflow.legal",
+				"label":{
+					"abonnement":{
+						"title":"Vos abonnements",
+						"description":"Suivre & gérer vos abonnements à nos services."
+					},
+					"contact":{
+						"title":"Nous contacter",
+						"description":"Contacter nos services par mail ou par téléphone."
+					},
+					"dossier":{
+						"title":"Vos dossiers",
+						"description":"Suivre & intérragir sur vos dossiers."
+					},
+					"prestation":{
+						"title":"Vos prestations",
+						"description":"Suivre vos prestations & récupérer vos factures."
+					},
+					"securite":{
+						"title":"Votre profil",
+						"description":"Modifier les informations de votre profil."
+					},
+					"service":{
+						"title":"Nos services",
+						"description":"Découvrer notre offre de services."
+					}
+				}
+			},
+			"dossier":{
+				"button":{
+					"ajouter":"Ajouter un dossier"
+				},
+				"label":{
+					"choisirClient":"Choisir un client",
+					"choisirJuriste":"Choisir un juriste"
+				},
+				"title":{
+					"multiple": "Dossiers",
+					"simple":"Dossier"
+				},
+				"tab":{
+					"resume":"Résumé",
+					"communication":"Communication",
+					"documents":"Documents",
+					"prestations":"Prestations",
+					"rdv":"Rendez-vous"
+				},
+				"document":{
+					"button":{
+						"ajouter":"Ajouter un document",
+						"sauver":"Sauver un document"
+					},
+					"label":{
+						"libelle":"Libellé de document",
+						"transmisPar":"Transmis par"
+					},
+					"title":{
+						"multiple": "Documents",
+						"simple":"Document"
+					}
+				},
+				"prestation":{
+					"button":{
+						"ajouter":"Ajouter une prestation"
+					}
+				},
+				"message":{
+					"choixDossier":"Vous avez la possibilité d'associer ce rendez-vous à un dossier existant ou en créer un nouveau."
+				}
+			},
+			"echange":{
+				"label":{
+					"saisieMessage":"Votre message"
+				}
+			},
+			"generic": {
+				"button": {
+					"ajouter": "Ajouter",
+					"delete": "Supprimer",
+					"fermer": "Fermer",
+					"non": "Non",
+					"oui": "Oui",
+					"save": "Enregistrer",
+					"search": "Rechercher",
+					"changer": "Changer",
+					"annuler": "Annuler",
+					"telecharger": "Télécharger",
+					"confirmer":"Confirmer",
+					"suivant":"Suivant",
+					"payer":"Payer"
+				},
+				"datatable": {
+					"actions": "Action(s)",
+					"etat": "Etat",
+					"nom": "Nom",
+					"resultats": "Résultats",
+					"search": "Saisir le texte cherché dans la table",
+					"valeur": "Valeur"
+				},
+				"entity": {
+					"etat": {
+						"actif": "Actif",
+						"inactif": "Inactif"
+					}
+				},
+				"label": {
+					"search":"Rechercher",
+					"etat": "Etat",
+					"nom":"Nom",
+					"prenom":"Prénom",
+					"adresse":"Adresse",
+					"codePostal":"Code postal",
+					"ville":"Ville",
+          "pays":"Pays",
+					"email":"Email",
+					"telephone":"Téléphone",
+          "fax":"Fax",
+          "siteWeb":"Site Web",
+          "notes":"Notes",
+          "description":"Description",
+					"libelle":"Libellé",
+					"code":"Code",
+					"cout":"Coût"					
+				},
+				"message": {
+					"no-result": "Il n'y a pas de résultat pour votre recherche. Veuillez vérifier les informations saisies ou modifiez votre recherche.",
+					"requis": "Le champ est obligatoire",
+					"mauvaisFormatMail": "Le format de l'adresse Email est incorrecte",
+					"mauvaisFormatEntier":"Le format attendu est un nombre entier positif",
+					"erreurCarte":"La carte utilisée n'autorise pas le paiement",					
+					"erreurSaisieCarte":"Les informations saisies pour le paiement contienne une erreur"
+				},
+				"placeholder": {
+					"search": {
+						"autocomplete": "Commencez à saisir pour rechercher"
+					}
+				},
+				"tooltip": {
+					"wildcard": "Le caractère * peut être utilisé pour remplacer une chaîne de 0 à n caractères."
+				}
+			},
+      "lieu":{
+        "button":{
+          "ajouter":"Ajouter un lieu"
+        },
+        "label":{
+        },
+        "message":{
+          "subtitleConfig":"En définissant les lieux pour vos rendez-vous clients, vous pourrez les sélectionner facilement. Vous allez économiser quotidiennement du temps."
+        },
+        "title":{
+          "ajout":"Ajout d'un nouveau lieu",
+          "modification":"Modification du lieu ",
+          "multiple":"Lieux"
+        }
+      },
+			"mon-planning":{
+				"label":{
+					"fermeture":"Fermeture",
+					"ouverture":"Ouverture",
+					"today":"Aujourd'hui",
+					"debut":"Début:",
+					"fin":"Fin:",
+					"description":"Description:",
+					"type":"Type:",
+					"lieu":"Lieu:",
+					"gHoraire":"Gestion des horaires"
+				},
+				"title":"Mon planning"
+			},
+			"mon-profil":{
+				"label":{
+					"priseContactPreferee":"Moyen de prise de contact préféré",
+					"password":"Mot de passe",
+					"verifyPassword":"Vérification du mot de passe",
+					"specialite":"Spécialité"
+				},
+				"message":{
+					"passwordsDifferents":"Les mots de passe saisis ne sont pas identiques.",
+					"passwordChange":"Le mot de passe a été mis à jour.",
+					"profilChange":"Le profil a été mis à jour."
+				},
+				"title":"Mon profil",
+				"tab":{
+					"profil":"Profil",
+					"communication":"Communication",
+					"securite":"Sécurité",
+					"calendar":"Disponibilité"
+				}
+			},			
+			"prestation":{
+				"button":{
+					"resilier":"Résilier votre prestation"
+				},
+				"label":{
+					"confirmation":{
+						"resiliation":"Demande de résiliation"
+					},
+					"motifResiliation":"Motif de la résiliation",
+					"dateDebut": "Date de début",
+					"finEngagement":"Fin d'engagement",
+					"prestationsIncluses": "Prestations incluses"
+				},
+				"msg":{
+					"confirmation":{
+						"resiliation":"Nous sommes navré d'apprendre que nos services ne répondent plus à vos attentes. Merci de confirmer votre souhait de mettre un terme à votre prestation."
+					},
+					"dateDebut": "Date de début",
+					"finEngagement":"Fin d'engagement",
+					"prestationsIncluses": "Prestations incluses"
+				},
+				"statut":{
+					"payee":"Payée",
+					"a_payer":"A Payer",
+              		"en_erreur":"En erreur"
+				},
+				"title":{
+					"multiple": "Prestations",
+					"simple":"Prestation"
+				},
+				"tab":{
+					"resume":"Résumé",
+					"transactions":"Transactions",
+					"facture":"Facture"
+				}				
+			},
+			"rdv":{
+				"button":{
+					"ajouter":"Prendre un rdv",
+					"annuler":"Annuler votre rdv",
+					"lier":"Lier un dossier",
+					"consulter":"Consulter le dossier",
+					"joindre":"Joindre un document",
+					"prendreRdv":"Prendre le rendez-vous"
+				},
+				"label":{
+					"noDossier":"Ne pas associer de dossier",
+					"createDossier":"Créer un dossier",
+					"choisirDossier":"Choisir un dossier",
+					"confirmation":{
+						"annulation":"Annulation de rendez-vous"
+					},
+					"dossier":"Dossier",
+					"informations":"Informations",
+					"partage":"Partage de documents",
+					"selectDossier":"Sélectionner un dossier",
+					"votreExpert":"Votre expert",
+					"votreClient":"Votre client",
+					"dossierAssocie":"Dossier associé au rdv",
+					"validation":"Validation du rendez-vous",
+					"choixRdv":"Votre horaire",
+					"vous":"Vous êtes"
+				},
+				"msg":{
+					"confirmation":{
+						"resiliation_msg":"Vous avez demandé à annuler votre rendez-vous. Vous pouvez toujours reprendre rendez-vous avec votre juriste depuis votre interface personnel.",
+						"resiliation":"Merci de confirmer votre souhait de mettre un terme à votre abonnement."
+					},
+					"preparerDoc":"Préparer et garder prêt de vous les documents relatifs à votre rdv.",
+					"partagerDoc":"Vous pouvez partager des documents avec votre juriste avant le rendez-vous.",
+					"quelExpert":"Avec lequel de nos experts, souhaitez-vous prendre rendez-vous?",
+					"quelClient":"Avec lequel de vos clients, souhaitez-vous prendre rendez-vous?",
+					"quelHoraire":"Merci de choisir un horaire pour votre rendez-vous",
+					"selectionDossier":"Vous avez la possibilité d'associer ce rendez-vous à un dossier existant ou en créer un nouveau.",
+					"verifInformation":"Merci de vérifier les informations et de confirmer le prise du rendez-vous",
+					"determinationHoraires":"Nous sommes entrain de déterminer les prochains rendez-vous disponibles."
+				},
+				"title":{
+					"dossier":"Sélection du dossier à associer",
+					"multiple":"Vos rendez-vous"
+				}
+			},
+			"ref-abonnement":{
+				"button":{
+					"ajouter":"Ajouter un abonnement",
+					"synchroniser":"Synchroniser les prestations"
+				},
+				"label": {
+					"choisirFormulaire" : "Choisir un formulaire",
+					"choisirPrestation" : "Choisir une prestation",
+					"dureeEngagement": "Durée d'engagement",					
+					"paypal-plan": "Id Plan de prélèvement Paypal",
+					"urlPublique": "Url publique"
+				},
+				"message":{
+					"abonnementChange":"L'abonnement a été mis à jour.",
+					"mauvaisFormatPrix":"Le format du prix doit être xxx.xx",
+					"mauvaisFormatDuree":"Le format de la durée n'est pas respecté",
+					"choisirPrestation":"Choisissez une prestation à ajouter"
+				},
+				"tab":{
+					"general":"Général",
+					"steps":"Steps",
+					"prestations":"Prestations"
+				},
+				"title":{
+					"multiple":"Référentiel des abonnements",
+					"prestation":"Prestation",
+					"simple":"Abonnement"
+				}
+			},
+			"ref-formulaire":{
+				"button":{
+					"ajouter":"Ajouter un formulaire"
+				},
+				"tab":{
+					"general":"Général",
+					"steps":"Steps"
+				},
+				"title":{
+					"multiple":"Référentiel des formulaires",
+					"simple":"Formulaire"
+				},
+				"step":{
+					"button":{
+						"ajouter":"Ajouter une étape",
+						"sauver":"Sauver l'étape"
+					},
+					"label": {
+						"htmlContent": "Contenu HTML de la description de l'étape"
+					},
+					"message":{
+						"abonnementChange":"L'abonnement a été mis à jour.",
+						"mauvaisFormatPrix":"Le format du prix doit être xxx.xx",
+						"mauvaisFormatDuree":"Le format de la durée n'est pas respecté"
+					},
+					"title":{
+						"multiple":"Etapes du formulaire",
+						"simple":"Etape du formulaire"
+					},
+					"question":{
+						"button":{
+							"ajouter":"Ajouter une question",
+							"sauver":"Sauver la question"
+						},
+						"label": {
+							"codeForDoc":"Code",
+							"defaultValue": "Valeur par défaut",
+                            "value": "Valeur",
+							"type": "Type de réponse"
+						},
+						"title":{
+							"multiple":"Questions",
+							"simple":"Question"
+						}
+					}
+				}
+			},
+			"ref-prestation":{
+				"button":{
+					"ajouter":"Ajouter une prestation"
+				},
+				"label": {
+					"creditsRdv": "Crédit de rendez-vous",
+					"creditsDossier": "Crédit de dossiers"
+				},
+				"message":{
+					"prestationChange":"La prestation a été mis à jour.",
+					"mauvaisFormatCout":"Le format de coût doit être xxx.xx",
+					"mauvaisFormatDuree":"Le format de durée n'est pas respecté"
+				},
+				"title":{
+					"multiple":"Référentiel des prestations",
+					"simple":"Prestation"
+				}
+			},
+			"suivi":{
+				"button":{
+					"ajouter":"Ajouter un suivi",
+					"sauver":"Sauver ce suivi"
+				},
+				"label":{
+					"date":"Date de suivi",
+					"contenu":"Contenu associé"
+				},
+				"title":{
+					"multiple": "Suivis",
+					"simple":"Suivi"
+				}
+			},
+      "ticket":{
+        "button":{
+          "ajouter":"Ajouter un ticket"
+        },
+        "label":{
+        },
+        "message":{
+          "subtitleConfig":"Vous pouvez améliorer le traitement des questions de vos clients en configurant votre système de ticket. Vous pouvez mettre en place des transferts automatiques vers une adresse électronique ainsi qu'envoyer à vos clients une réponse automatique pour qu'ils sachent que vous êtes en train de traiter leur demande."
+        },
+        "title":{
+          "ajout":"Ajout d'un nouveau ticket",
+          "modification":"Modification du ticket ",
+          "multiple":"Tickets"
+        }
+      },
+			"transaction":{
+				"title":{
+					"multiple": "Transactions",
+					"simple":"Transaction"
+				},
+				"type":{
+					"pending":"En instance",
+					"failed":"Echouée",
+					"completed":"Réussie"
+				}
+			},
+			"utilisateur":{
+				"button":{
+					"ajouter":"Ajouter un utilisateur"
+				},
+				"label":{
+					"priseContactPreferee":"Prise de contact préférée",
+					"password":"Mot de passe",
+					"verifyPassword":"Vérification du mot de passe",
+					"profils":"Profils de l'utilisateur"
+				},
+				"message":{
+					"passwordsDifferents":"Les mots de passe saisis ne sont pas identiques.",
+					"passwordChange":"Le mot de passe a été mis à jour.",
+					"profilChange":"Le profil a été mis à jour.",
+					"saisirTelephone":"Merci de remplir le numéro de téléphone"
+				},
+				"title":{
+					"multiple": "Utilisateurs",
+					"simple":"Utilisateur"
+				},
+				"tab":{
+					"profil":"Profil",
+					"communication":"Communication",
+					"securite":"Sécurité"
+				}
+			}
+		}
+	},
+	"param": {
+		"application": {
+			"copyright": "Copyright 2018 - {0} créé par Lixbox team",
+			"menu": {
+				"registry": "Gestionnaire de paramètres",
+				"settings": "Configuration"
+			},
+			"title": "Lixbox param"
+		},
+		"service": {
+			"action": {
+				"add": {
+					"text": "Ajouter un parametre"
+				},
+				"search": {
+					"placeholder": "Chercher une entrée"
+				}
+			},
+			"dialog": {
+				"entry": {
+					"delete": {
+						"text": "Êtes vous vraiment sur?",
+						"title": "Suppression du parametre {0}"
+					}
+				}
+			},
+			"entry": {
+				"code": "Code",
+				"libelle": "Libellé",
+				"service": "Code du Service",
+				"type": "Type de la valeur",
+				"value": "Valeur"
+			},
+			"select": "Choisissez un paramètre",
+			"ui": {
+				"button": {
+					"entry": {
+						"del": "Supprimer ce paramètre",
+						"save": "Enregistrer ce paramètre"
+					}
+				}
+			}
+		}
+	}
+}
+	

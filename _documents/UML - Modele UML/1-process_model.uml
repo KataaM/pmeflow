@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0zrFEOBbEeib0tG_l4JXaA" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_-QT7cOLIEeiX58LvpydK6w" name="user"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_AcmM0OLJEeiX58LvpydK6w" name="divers">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_dz234OGvEeiX7rw3qsizqQ">
+      <body>0..2</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_lEArwOGvEeiX7rw3qsizqQ">
+      <body>0..2</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_rH_AYOGvEeiX7rw3qsizqQ">
+      <body>0..10</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_CdMzUOGwEeiX7rw3qsizqQ">
+      <body>0..100</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_G8heUOGwEeiX7rw3qsizqQ">
+      <body>0..1</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_mC78sOGwEeiX7rw3qsizqQ" annotatedElement="_MVwM0OGwEeiX7rw3qsizqQ">
+      <body>0..100</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_H7df4OG9EeiX7rw3qsizqQ" annotatedElement="_6uUJIOG8EeiX7rw3qsizqQ">
+      <body>0..100</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ffqkUOGtEeiX7rw3qsizqQ" name="Articlaw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MVwM0OGwEeiX7rw3qsizqQ" name="Service Mail"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_f7bL4OGwEeiX7rw3qsizqQ" client="_0zrFEOBbEeib0tG_l4JXaA" supplier="_MVwM0OGwEeiX7rw3qsizqQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6uUJIOG8EeiX7rw3qsizqQ" name="PAYPAL"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_A1-D4OG9EeiX7rw3qsizqQ" client="_ffqkUOGtEeiX7rw3qsizqQ" supplier="_6uUJIOG8EeiX7rw3qsizqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_QkdhEGW6Ee2en_ThIEhj3g" name="Gestion de la relation client">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mk_jkGW7Ee2en_ThIEhj3g" name="Voir les infos générales et celles de l'entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sZ4TUGW7Ee2en_ThIEhj3g" name="Ajouter une entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xkDSIGW7Ee2en_ThIEhj3g" name="Modifier une entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2JCgQGW7Ee2en_ThIEhj3g" name="Supprimer une entreprise/contact"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_NtISIGW7Ee2en_ThIEhj3g" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_N2UDUGW7Ee2en_ThIEhj3g" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QPeTEGW7Ee2en_ThIEhj3g" name="RH"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RveGMGW7Ee2en_ThIEhj3g" name="Commercial"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_RmbCcGW8Ee2en_ThIEhj3g" client="_NtISIGW7Ee2en_ThIEhj3g" supplier="_QkdhEGW6Ee2en_ThIEhj3g"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aoPBMGW8Ee2en_ThIEhj3g" client="_RveGMGW7Ee2en_ThIEhj3g" supplier="_QkdhEGW6Ee2en_ThIEhj3g"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_hPWfIGW8Ee2en_ThIEhj3g" client="_N2UDUGW7Ee2en_ThIEhj3g" supplier="_mk_jkGW7Ee2en_ThIEhj3g"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ijavEGW8Ee2en_ThIEhj3g" client="_QPeTEGW7Ee2en_ThIEhj3g" supplier="_mk_jkGW7Ee2en_ThIEhj3g"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_xoROUGW8Ee2en_ThIEhj3g" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0KxnUGW8Ee2en_ThIEhj3g" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0ypfoGW8Ee2en_ThIEhj3g" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2TpYUGW8Ee2en_ThIEhj3g" name="RH"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6H8JUGW8Ee2en_ThIEhj3g" name="Gestion de la relation client"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_B1qC8GW9Ee2en_ThIEhj3g" client="_xoROUGW8Ee2en_ThIEhj3g" supplier="_6H8JUGW8Ee2en_ThIEhj3g"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_VN2msGW9Ee2en_ThIEhj3g" client="_2TpYUGW8Ee2en_ThIEhj3g" supplier="_6H8JUGW8Ee2en_ThIEhj3g"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_WpEAcGW9Ee2en_ThIEhj3g" client="_0KxnUGW8Ee2en_ThIEhj3g" supplier="_6H8JUGW8Ee2en_ThIEhj3g"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Xc2N0GW9Ee2en_ThIEhj3g" client="_0ypfoGW8Ee2en_ThIEhj3g" supplier="_6H8JUGW8Ee2en_ThIEhj3g"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_cdMiQGW9Ee2en_ThIEhj3g" name="Gestion des opportunités"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_frYVgGW9Ee2en_ThIEhj3g" name="Gestion des projets"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hnZWQGW9Ee2en_ThIEhj3g" name="Suivi de temps"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_sAnegGZaEe2SBOIbNIRyQw" name="Directeur">
+    <generalization xmi:type="uml:Generalization" xmi:id="_HU2rwGZbEe2SBOIbNIRyQw" general="_t9n9wGZaEe2SBOIbNIRyQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_t9n9wGZaEe2SBOIbNIRyQw" name="Commercial">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OYefgGZbEe2SBOIbNIRyQw" general="_vPLsQGZaEe2SBOIbNIRyQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_vPLsQGZaEe2SBOIbNIRyQw" name="RH">
+    <generalization xmi:type="uml:Generalization" xmi:id="_YI6e0GZbEe2SBOIbNIRyQw" general="_wBEcMGZaEe2SBOIbNIRyQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_wBEcMGZaEe2SBOIbNIRyQw" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2Ha28GteEe2GMcc1v9q4Rg" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2fsNAGteEe2GMcc1v9q4Rg" name="Commercial"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_96E68GteEe2GMcc1v9q4Rg" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_96E68WteEe2GMcc1v9q4Rg" name="Voir les infos générales et celles de l'entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_96E68mteEe2GMcc1v9q4Rg" name="Ajouter une entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_96E682teEe2GMcc1v9q4Rg" name="Modifier une entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_96E69GteEe2GMcc1v9q4Rg" name="Supprimer une entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sJrwUGv_Ee2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1ZaPQGv_Ee2rD5nn1zb92w" name="Exporté des opportunités"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4P1CwGv_Ee2rD5nn1zb92w" name="Ajouter une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7D67AGv_Ee2rD5nn1zb92w" name="Changer une opportunité d’état"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__qT3UGv_Ee2rD5nn1zb92w" name="Rechercher une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EZMBQGwAEe2rD5nn1zb92w" name="Visualiser le détail d’une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_AxfM8GtfEe2GMcc1v9q4Rg" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_BLx8QGtfEe2GMcc1v9q4Rg" name="RH_"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_sfq4IGvjEe2rD5nn1zb92w" name="Gestion de la relation client"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_sftUYGvjEe2rD5nn1zb92w" name="Gestion des projets"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_sftUYWvjEe2rD5nn1zb92w" name="Gestion des opportunités"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_sft7cGvjEe2rD5nn1zb92w" name="Suivi de temps"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_trRvoGvjEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_trSWsGvjEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_trSWsWvjEe2rD5nn1zb92w" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_trSWsmvjEe2rD5nn1zb92w" name="RH"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_DP-AIGvkEe2rD5nn1zb92w" client="_trSWsmvjEe2rD5nn1zb92w" supplier="_sfq4IGvjEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Ek4koGvkEe2rD5nn1zb92w" client="_trSWsGvjEe2rD5nn1zb92w" supplier="_sfq4IGvjEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_FdeZgGvkEe2rD5nn1zb92w" client="_trSWsWvjEe2rD5nn1zb92w" supplier="_sftUYWvjEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Gn5lQGvkEe2rD5nn1zb92w" client="_trSWsWvjEe2rD5nn1zb92w" supplier="_sfq4IGvjEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_JzCrkGvkEe2rD5nn1zb92w" client="_trSWsmvjEe2rD5nn1zb92w" supplier="_sftUYWvjEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_KoDoAGvkEe2rD5nn1zb92w" client="_trSWsGvjEe2rD5nn1zb92w" supplier="_sftUYWvjEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LHpuEGvkEe2rD5nn1zb92w" client="_trRvoGvjEe2rD5nn1zb92w" supplier="_sfq4IGvjEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LZvjoGvkEe2rD5nn1zb92w" client="_trRvoGvjEe2rD5nn1zb92w" supplier="_sftUYWvjEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3GDUEGv7Ee2rD5nn1zb92w" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3VQNsGv7Ee2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3e4q0Gv7Ee2rD5nn1zb92w" name="RH"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3vEb4Gv7Ee2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6ccBEGv7Ee2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OdzdoGv8Ee2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_VxtJEGv8Ee2rD5nn1zb92w" client="_3GDUEGv7Ee2rD5nn1zb92w" supplier="_OdzdoGv8Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_WDs4AGv8Ee2rD5nn1zb92w" client="_3vEb4Gv7Ee2rD5nn1zb92w" supplier="_OdzdoGv8Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_WS38cGv8Ee2rD5nn1zb92w" client="_3e4q0Gv7Ee2rD5nn1zb92w" supplier="_OdzdoGv8Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_WuPCwGv8Ee2rD5nn1zb92w" client="_3VQNsGv7Ee2rD5nn1zb92w" supplier="_OdzdoGv8Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ksyBQGv8Ee2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ksyBQWv8Ee2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ksyoUWv8Ee2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ksyoUmv8Ee2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_re-GwGv8Ee2rD5nn1zb92w" name="Exporter des opportunités"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_yEV4QGv8Ee2rD5nn1zb92w" client="_ksyBQWv8Ee2rD5nn1zb92w" supplier="_re-GwGv8Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_yd-gQGv8Ee2rD5nn1zb92w" client="_ksyBQGv8Ee2rD5nn1zb92w" supplier="_re-GwGv8Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2bamMGv8Ee2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2bbNQGv8Ee2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_2bbNQWv8Ee2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2bbNQmv8Ee2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2bbNQ2v8Ee2rD5nn1zb92w" name="Exporté des opportunités"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4ynuIGv8Ee2rD5nn1zb92w" name="Ajouter une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_9punAGv8Ee2rD5nn1zb92w" client="_2bbNQGv8Ee2rD5nn1zb92w" supplier="_4ynuIGv8Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_-Aln0Gv8Ee2rD5nn1zb92w" client="_2bamMGv8Ee2rD5nn1zb92w" supplier="_4ynuIGv8Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HUhRUWv9Ee2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_HUhRUmv9Ee2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HUhRU2v9Ee2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HUhRVGv9Ee2rD5nn1zb92w" name="Exporté des opportunités"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HUhRVWv9Ee2rD5nn1zb92w" name="Ajouter une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_IMNuUGv9Ee2rD5nn1zb92w" name="Rechercher une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LljosGv9Ee2rD5nn1zb92w" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LljosWv9Ee2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MFKV0Gv9Ee2rD5nn1zb92w" name="RH"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_TKyUsGv9Ee2rD5nn1zb92w" client="_HUhRUWv9Ee2rD5nn1zb92w" supplier="_IMNuUGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_TiEzUGv9Ee2rD5nn1zb92w" client="_LljosGv9Ee2rD5nn1zb92w" supplier="_IMNuUGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_T59H0Gv9Ee2rD5nn1zb92w" client="_MFKV0Gv9Ee2rD5nn1zb92w" supplier="_IMNuUGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UXxFMGv9Ee2rD5nn1zb92w" client="_LljosWv9Ee2rD5nn1zb92w" supplier="_IMNuUGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_X9xikGv9Ee2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_X9xikWv9Ee2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_X9yJoWv9Ee2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_X9yJomv9Ee2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_X9yJo2v9Ee2rD5nn1zb92w" name="Exporté des opportunités"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_X9yJpGv9Ee2rD5nn1zb92w" name="Ajouter une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_X9yJpWv9Ee2rD5nn1zb92w" name="Rechercher une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YTNAAGv9Ee2rD5nn1zb92w" name="Changer une opportunité d’état"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_eOMXwGv9Ee2rD5nn1zb92w" client="_X9xikGv9Ee2rD5nn1zb92w" supplier="_YTNAAGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_g9l9QGv9Ee2rD5nn1zb92w" client="_X9xikWv9Ee2rD5nn1zb92w" supplier="_YTNAAGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l5yKcGv9Ee2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l5yKcWv9Ee2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_l5yKcmv9Ee2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l5yKc2v9Ee2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l5yKdGv9Ee2rD5nn1zb92w" name="Exporté des opportunités"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l5yKdWv9Ee2rD5nn1zb92w" name="Ajouter une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l5yKdmv9Ee2rD5nn1zb92w" name="Rechercher une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mOG0oGv9Ee2rD5nn1zb92w" name="Visualiser le détail d’une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l5yKd2v9Ee2rD5nn1zb92w" name="RH"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l5yxgGv9Ee2rD5nn1zb92w" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sdNbMGv9Ee2rD5nn1zb92w" client="_l5yxgGv9Ee2rD5nn1zb92w" supplier="_mOG0oGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_tJt74Gv9Ee2rD5nn1zb92w" client="_l5yKcWv9Ee2rD5nn1zb92w" supplier="_mOG0oGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_tjzP0Gv9Ee2rD5nn1zb92w" client="_l5yKd2v9Ee2rD5nn1zb92w" supplier="_mOG0oGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_vHnzAGv9Ee2rD5nn1zb92w" client="_l5yKcGv9Ee2rD5nn1zb92w" supplier="_mOG0oGv9Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YajIsGv-Ee2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YajIsWv-Ee2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YajIsmv-Ee2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YajIs2v-Ee2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YajItGv-Ee2rD5nn1zb92w" name="Exporté des opportunités"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YajItWv-Ee2rD5nn1zb92w" name="Ajouter une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YajItmv-Ee2rD5nn1zb92w" name="Rechercher une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YajIt2v-Ee2rD5nn1zb92w" name="Visualiser le détail d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YwhYsGv-Ee2rD5nn1zb92w" name="Voir les ventes prévisionnelles des opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_b78y4Gv-Ee2rD5nn1zb92w" client="_YajIsWv-Ee2rD5nn1zb92w" supplier="_YwhYsGv-Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_c7ngIGv-Ee2rD5nn1zb92w" client="_YajIsGv-Ee2rD5nn1zb92w" supplier="_YwhYsGv-Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_mKWgkGv-Ee2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mKWgkWv-Ee2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mKWgkmv-Ee2rD5nn1zb92w" name="Exporté des opportunités"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mKWgk2v-Ee2rD5nn1zb92w" name="Ajouter une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mKWglGv-Ee2rD5nn1zb92w" name="Rechercher une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mKWglWv-Ee2rD5nn1zb92w" name="Visualiser le détail d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mgizAGv-Ee2rD5nn1zb92w" name="Visualiser le détail d’une opportunité à partir de la tabulation “prévisionnel&quot;"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_mKXHoGv-Ee2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_mKXHomv-Ee2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_r2IXoGv-Ee2rD5nn1zb92w" client="_mKXHoGv-Ee2rD5nn1zb92w" supplier="_mgizAGv-Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sPmAgGv-Ee2rD5nn1zb92w" client="_mKXHomv-Ee2rD5nn1zb92w" supplier="_mgizAGv-Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ue7JYGv_Ee2rD5nn1zb92w" client="_2Ha28GteEe2GMcc1v9q4Rg" supplier="_sJrwUGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_v-68gGv_Ee2rD5nn1zb92w" client="_AxfM8GtfEe2GMcc1v9q4Rg" supplier="_sJrwUGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_zec-cGv_Ee2rD5nn1zb92w" client="_2fsNAGteEe2GMcc1v9q4Rg" supplier="_sJrwUGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_z1ovYGv_Ee2rD5nn1zb92w" client="_BLx8QGtfEe2GMcc1v9q4Rg" supplier="_sJrwUGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_2RcqgGv_Ee2rD5nn1zb92w" client="_2Ha28GteEe2GMcc1v9q4Rg" supplier="_1ZaPQGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_2oYj0Gv_Ee2rD5nn1zb92w" client="_2fsNAGteEe2GMcc1v9q4Rg" supplier="_1ZaPQGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_47pm8Gv_Ee2rD5nn1zb92w" client="_2Ha28GteEe2GMcc1v9q4Rg" supplier="_4P1CwGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_5RXYQGv_Ee2rD5nn1zb92w" client="_2fsNAGteEe2GMcc1v9q4Rg" supplier="_4P1CwGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_7s18MGv_Ee2rD5nn1zb92w" client="_2Ha28GteEe2GMcc1v9q4Rg" supplier="_7D67AGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_9evXoGv_Ee2rD5nn1zb92w" client="_2fsNAGteEe2GMcc1v9q4Rg" supplier="_7D67AGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_BjMEgGwAEe2rD5nn1zb92w" client="_2Ha28GteEe2GMcc1v9q4Rg" supplier="__qT3UGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_B-h8sGwAEe2rD5nn1zb92w" client="_2fsNAGteEe2GMcc1v9q4Rg" supplier="__qT3UGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_C-Y3MGwAEe2rD5nn1zb92w" client="_AxfM8GtfEe2GMcc1v9q4Rg" supplier="__qT3UGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_DYZ5sGwAEe2rD5nn1zb92w" client="_z1ovYGv_Ee2rD5nn1zb92w" supplier="__qT3UGv_Ee2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Ft_4EGwAEe2rD5nn1zb92w" client="_BjMEgGwAEe2rD5nn1zb92w" supplier="_EZMBQGwAEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_GUoaQGwAEe2rD5nn1zb92w" client="_2fsNAGteEe2GMcc1v9q4Rg" supplier="_EZMBQGwAEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_GppoAGwAEe2rD5nn1zb92w" client="_AxfM8GtfEe2GMcc1v9q4Rg" supplier="_EZMBQGwAEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_HLlQYGwAEe2rD5nn1zb92w" client="_BLx8QGtfEe2GMcc1v9q4Rg" supplier="_EZMBQGwAEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lHGo8GwAEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lHHQAGwAEe2rD5nn1zb92w" name="RH"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lHHQAWwAEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lHHQAmwAEe2rD5nn1zb92w" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_mnXh0GwAEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh0WwAEe2rD5nn1zb92w" name="Voir les infos générales et celles de l'entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh0mwAEe2rD5nn1zb92w" name="Ajouter une entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh02wAEe2rD5nn1zb92w" name="Modifier une entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh1GwAEe2rD5nn1zb92w" name="Supprimer une entreprise/contact"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh1WwAEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh1mwAEe2rD5nn1zb92w" name="Exporté des opportunités"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh12wAEe2rD5nn1zb92w" name="Ajouter une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh2GwAEe2rD5nn1zb92w" name="Changer une opportunité d’état"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh2WwAEe2rD5nn1zb92w" name="Rechercher une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnXh2mwAEe2rD5nn1zb92w" name="Visualiser le détail d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_s7RI0GwAEe2rD5nn1zb92w" name="Voir les informations prévisionnel des opportunités"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uuL38GwAEe2rD5nn1zb92w" name="Visualiser le détail d’une opportunité à partir de la tabulation “prévisionnel&quot;"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_xeW5gGwAEe2rD5nn1zb92w" client="_lHGo8GwAEe2rD5nn1zb92w" supplier="_s7RI0GwAEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_x-LCAGwAEe2rD5nn1zb92w" client="_lHHQAWwAEe2rD5nn1zb92w" supplier="_s7RI0GwAEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_yc_sAGwAEe2rD5nn1zb92w" client="_lHGo8GwAEe2rD5nn1zb92w" supplier="_uuL38GwAEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_y-X6wGwAEe2rD5nn1zb92w" client="_lHHQAWwAEe2rD5nn1zb92w" supplier="_uuL38GwAEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_EEClwGwCEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EEClwWwCEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KZFcQGwCEe2rD5nn1zb92w" name="Modifier le statut d’une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_IbJv8GwCEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_IbKXAWwCEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_OE2jYGwCEe2rD5nn1zb92w" client="_IbJv8GwCEe2rD5nn1zb92w" supplier="_KZFcQGwCEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_OYbmsGwCEe2rD5nn1zb92w" client="_IbKXAWwCEe2rD5nn1zb92w" supplier="_KZFcQGwCEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dupiwGwCEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dupiwWwCEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dupiwmwCEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dupiw2wCEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dupixGwCEe2rD5nn1zb92w" name="Modifier l’état d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_eBAeEGwCEe2rD5nn1zb92w" name="Supprimer une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_l44ZQGwCEe2rD5nn1zb92w" client="_dupiwWwCEe2rD5nn1zb92w" supplier="_eBAeEGwCEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_mLsAgGwCEe2rD5nn1zb92w" client="_dupiwGwCEe2rD5nn1zb92w" supplier="_eBAeEGwCEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_rI1P8GwCEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_rI13AGwCEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_rgds0GwCEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rgds0WwCEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rgds0mwCEe2rD5nn1zb92w" name="Modifier l’état d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rgds02wCEe2rD5nn1zb92w" name="Supprimer une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rydbwGwCEe2rD5nn1zb92w" name=" Editer la remarque concernant une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_wuqQAGwCEe2rD5nn1zb92w" client="_rI13AGwCEe2rD5nn1zb92w" supplier="_rydbwGwCEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_xARkcGwCEe2rD5nn1zb92w" client="_rI1P8GwCEe2rD5nn1zb92w" supplier="_rydbwGwCEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_02Uo8GwCEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_02VQAGwCEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1HB-cGwCEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1HB-cWwCEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1HB-cmwCEe2rD5nn1zb92w" name="Modifier l’état d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1HB-c2wCEe2rD5nn1zb92w" name="Supprimer une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1HB-dGwCEe2rD5nn1zb92w" name=" Editer la remarque concernant une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1htIQGwCEe2rD5nn1zb92w" name="Uploader un fichier pour une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_FUN-wGwDEe2rD5nn1zb92w" client="_02Uo8GwCEe2rD5nn1zb92w" supplier="_1htIQGwCEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Ft7fQGwDEe2rD5nn1zb92w" client="_02VQAGwCEe2rD5nn1zb92w" supplier="_1htIQGwCEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_KCwKcGwDEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_KCwKcWwDEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KCwxgGwDEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KCwxgWwDEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KCwxgmwDEe2rD5nn1zb92w" name="Modifier l’état d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KCwxg2wDEe2rD5nn1zb92w" name="Supprimer une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KCwxhGwDEe2rD5nn1zb92w" name=" Editer la remarque concernant une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KCwxhWwDEe2rD5nn1zb92w" name="Uploader un fichier pour une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_K1yw8GwDEe2rD5nn1zb92w" name="Créer un devis pour une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_OCsKwGwDEe2rD5nn1zb92w" client="_KCwKcWwDEe2rD5nn1zb92w" supplier="_K1yw8GwDEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_OSWXYGwDEe2rD5nn1zb92w" client="_KCwKcGwDEe2rD5nn1zb92w" supplier="_K1yw8GwDEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RkvVMGwDEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_RkvVMWwDEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Rkv8QGwDEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Rkv8QWwDEe2rD5nn1zb92w" name="Modifier l’état d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Rkv8QmwDEe2rD5nn1zb92w" name="Supprimer une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Rkv8Q2wDEe2rD5nn1zb92w" name=" Editer la remarque concernant une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Rkv8RGwDEe2rD5nn1zb92w" name="Uploader un fichier pour une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Rkv8RWwDEe2rD5nn1zb92w" name="Lier un devis à une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_R2vEIGwDEe2rD5nn1zb92w" name=" Lier un projet à une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Rkv8RmwDEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_WwAgMGwDEe2rD5nn1zb92w" client="_Rkv8RmwDEe2rD5nn1zb92w" supplier="_R2vEIGwDEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_XDAUsGwDEe2rD5nn1zb92w" client="_RkvVMGwDEe2rD5nn1zb92w" supplier="_R2vEIGwDEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_n70E4GwDEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_n70E4WwDEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_n70E4mwDEe2rD5nn1zb92w" name="Modifier l’état d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_n70E42wDEe2rD5nn1zb92w" name="Supprimer une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_n70E5GwDEe2rD5nn1zb92w" name=" Editer la remarque concernant une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_n70E5WwDEe2rD5nn1zb92w" name="Uploader un fichier pour une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_n70E5mwDEe2rD5nn1zb92w" name="Lier un devis à une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_n70E52wDEe2rD5nn1zb92w" name=" Lier un projet à une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oPG0UGwDEe2rD5nn1zb92w" name="Modifier les détails d’une opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_n70E6GwDEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_n70r8GwDEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sL6oIGwDEe2rD5nn1zb92w" client="_n70E6GwDEe2rD5nn1zb92w" supplier="_oPG0UGwDEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sf6iMGwDEe2rD5nn1zb92w" client="_n70r8GwDEe2rD5nn1zb92w" supplier="_oPG0UGwDEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_v-zD4GwDEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v-zD4WwDEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v-zD4mwDEe2rD5nn1zb92w" name="Modifier l’état d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v-zD42wDEe2rD5nn1zb92w" name="Supprimer une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v-zD5GwDEe2rD5nn1zb92w" name=" Editer la remarque concernant une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v-zD5WwDEe2rD5nn1zb92w" name="Uploader un fichier pour une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v-zD5mwDEe2rD5nn1zb92w" name="Lier un devis à une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v-zD52wDEe2rD5nn1zb92w" name=" Lier un projet à une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wbltkGwDEe2rD5nn1zb92w" name="Modifier l’état de l’opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_yHTogGwDEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_yHUPkGwDEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_2KuaoGwDEe2rD5nn1zb92w" client="_yHUPkGwDEe2rD5nn1zb92w" supplier="_wbltkGwDEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_2dUmgGwDEe2rD5nn1zb92w" client="_yHTogGwDEe2rD5nn1zb92w" supplier="_wbltkGwDEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GXarsGwEEe2rD5nn1zb92w" name="Gestion des opportunités">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GXarsWwEEe2rD5nn1zb92w" name="Voir les informations générales d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GXarsmwEEe2rD5nn1zb92w" name="Modifier le statut d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LOaP0GwEEe2rD5nn1zb92w" name="Modifier le statut d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_L9XnkGwEEe2rD5nn1zb92w" name="Supprimer une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NDhXUGwEEe2rD5nn1zb92w" name=" Editer la remarque concernant une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_N-fx0GwEEe2rD5nn1zb92w" name="Uploader un fichier pour une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OrJccGwEEe2rD5nn1zb92w" name="Lier un devis à une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_POkSkGwEEe2rD5nn1zb92w" name=" Lier un projet à une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_P_D7YGwEEe2rD5nn1zb92w" name="Modifier les détails d’une opportunité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QlTcAGwEEe2rD5nn1zb92w" name="Faire avancer l’état de l’opportunité"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HrosoGwEEe2rD5nn1zb92w" name="Directeur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HrosoWwEEe2rD5nn1zb92w" name="Commercial"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_X34RwGwEEe2rD5nn1zb92w" client="_HrosoGwEEe2rD5nn1zb92w" supplier="_LOaP0GwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_YJMrQGwEEe2rD5nn1zb92w" client="_HrosoGwEEe2rD5nn1zb92w" supplier="_L9XnkGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_YbpGIGwEEe2rD5nn1zb92w" client="_HrosoGwEEe2rD5nn1zb92w" supplier="_NDhXUGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Y4LRIGwEEe2rD5nn1zb92w" client="_HrosoGwEEe2rD5nn1zb92w" supplier="_N-fx0GwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZS7TcGwEEe2rD5nn1zb92w" client="_HrosoGwEEe2rD5nn1zb92w" supplier="_OrJccGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZlXuUGwEEe2rD5nn1zb92w" client="_HrosoGwEEe2rD5nn1zb92w" supplier="_POkSkGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Z_8xgGwEEe2rD5nn1zb92w" client="_HrosoGwEEe2rD5nn1zb92w" supplier="_P_D7YGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_avVAAGwEEe2rD5nn1zb92w" client="_HrosoGwEEe2rD5nn1zb92w" supplier="_QlTcAGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_bbMngGwEEe2rD5nn1zb92w" client="_HrosoWwEEe2rD5nn1zb92w" supplier="_LOaP0GwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_bvTPQGwEEe2rD5nn1zb92w" client="_HrosoWwEEe2rD5nn1zb92w" supplier="_L9XnkGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cMdFUGwEEe2rD5nn1zb92w" client="_HrosoWwEEe2rD5nn1zb92w" supplier="_NDhXUGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cfnR4GwEEe2rD5nn1zb92w" client="_HrosoWwEEe2rD5nn1zb92w" supplier="_N-fx0GwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cznzAGwEEe2rD5nn1zb92w" client="_HrosoWwEEe2rD5nn1zb92w" supplier="_OrJccGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_dKn9wGwEEe2rD5nn1zb92w" client="_cznzAGwEEe2rD5nn1zb92w" supplier="_POkSkGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_dwcAkGwEEe2rD5nn1zb92w" client="_HrosoWwEEe2rD5nn1zb92w" supplier="_P_D7YGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_eF7IYGwEEe2rD5nn1zb92w" client="_HrosoWwEEe2rD5nn1zb92w" supplier="_QlTcAGwEEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_PCGOgGyhEe2d8OYQJoeHEQ" name="RH"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Pd0hMGyhEe2d8OYQJoeHEQ" name="Collaborateur"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_RyX9wGyhEe2d8OYQJoeHEQ" client="_PCGOgGyhEe2d8OYQJoeHEQ" supplier="_1htIQGwCEe2rD5nn1zb92w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_SFqtMGyhEe2d8OYQJoeHEQ" client="_Pd0hMGyhEe2d8OYQJoeHEQ" supplier="_1htIQGwCEe2rD5nn1zb92w"/>
+</uml:Model>

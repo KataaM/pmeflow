@@ -1,0 +1,41 @@
+rootProject.name = 'pmeflow'
+
+/** Projet importé */
+include 'commons-api'
+
+//grc - gestion relation client
+include 'grc-api'
+include 'grc-core'
+
+// activite - logs des activites sur l'application
+include 'activite-api'
+include 'activite-core'
+
+//opportunite
+include 'opportunite-api'
+include 'opportunite-core'
+
+//iam - client-utilisateur-profil
+include 'iam-api'
+//include 'iam-core'
+
+//referentiels - abonnement - formulaire - prestation
+include 'referentiel-api'
+//include 'referentiel-core'
+
+
+//services - abonnement - formulaire - prise de rdv
+include 'backend-api'
+//include 'backend-core'
+
+
+//service tierce partie
+include 'sirene-api'
+include 'stripe-api'
+include 'stripe-core'
+
+//ui
+//include 'private-ui'
+
+//service de test ui avec selenium
+include 'pmeflow-ui-test'

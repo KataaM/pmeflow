@@ -1,0 +1,12 @@
+/build/
+/yarn.lock
+/node_modules/
+/bin/
+/dist/
+/package-lock.json
+/.settings/
+/.project
+
+#Docker
+
+.env

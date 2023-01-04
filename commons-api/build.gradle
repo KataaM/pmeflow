@@ -1,0 +1,35 @@
+project(':commons-api'){
+      dependencies {
+        //lixbox
+        compileOnly(group: 'fr.lixbox.lixbox-service', name: 'lixbox-microservice-common', version: version_lixbox_service)
+        compileOnly(group: 'fr.lixbox.lixbox-io', name: 'lixbox-json', version: version_lixbox_io)
+        
+        compileOnly group: 'io.quarkus', name: 'quarkus-resteasy', version: quarkusVersion
+        compileOnly group: 'io.quarkus', name: 'quarkus-resteasy-jackson', version: quarkusVersion
+	}
+    
+    eclipse{
+        wtp{
+            facet {
+                facet name: 'jst.cdi', version: '2.0'
+            }   
+        }
+    }
+    sonarqube {
+        properties {
+           property "sonar.projectKey", "${config.desc_project.artefact.projectKey}:${project.name}"
+           property "sonar.projectName", "${project.name}"
+           property "sonar.sources","src/main"
+           property "sonar.tests","src/test"
+        }
+    }
+    
+    jar{
+        manifest {
+            attributes(
+                "Implementation-Title": project.name, 
+                "Implementation-Version": version, 
+                "Implementation-Timestamp": new Date())
+        }
+    }
+}
